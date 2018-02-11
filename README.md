@@ -2,7 +2,9 @@
 
 ## Javier notes
 
-Overrode default 'start' script to build and run call 'npm start'
+- Overrode default 'start' script to build and run call 'npm start'
+
+- Using config json file, just run 'less-watch-compiler' in /src/assets/styles
 
 ## Angular Default ReadMe
 
