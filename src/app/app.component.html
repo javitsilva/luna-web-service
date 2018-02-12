@@ -2,19 +2,40 @@
   <nav class="navbar">
     <div class="navbar-header">
       <a href="#" class="navbar-brand">Luna Inc.</a>
-      <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-items" type="button">options</button>
+      <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-items" type="button"><span class="expand-arrow"></span></button>
     </div>
 
     <div id="collapsed-items" class="collapse navbar-collapse">
       <div class="top-navheader">
-        <button type="button">Sign In</button>
-        <button type="button">Preferences</button>
+        <button type="button" class="nav-button">Sign In</button>
+        <button type="button" class="nav-button">Preferences</button>
       </div>
       <div class="bottom-navheader">
-        <button type="button">dropdown 1</button>
-        <button type="button">dropdown 2</button>
-        <button type="button">dropdown 3</button> 
-        <button type="button">dropdown 4</button>  
+        <button class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown 1 <span class="expand-arrow"></span></a>
+          <ul class="dropdown-menu" id="menu1">
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </button>
+        <button type="button">dropdown 2 <span class="expand-arrow"></span>
+
+        </button> 
+        <button type="button">dropdown 3 <span class="expand-arrow"></span>
+
+        </button> 
+        <button class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown 4 <span class="expand-arrow"></span></a>
+          <ul class="dropdown-menu" id="menu1">
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </button>
+        <!-- todo: search form -->
       </div>
     </div>
   </nav>
